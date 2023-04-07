@@ -1,11 +1,5 @@
 const useState = React.useState;
 
-const StyledDiv = window.styled.div`
-    background-color: red;
-    border: 6px bold solid;
-    border-radius: 15px;
-`
-
 function LikeButton () {
     const [liked, setLiked] = useState(false);
     return (
