@@ -5,11 +5,6 @@ function LikeButton () {
     return (
         <React.Fragment>
         <button onClick={() => setLiked(!liked)}>{liked ? 'Liked' : 'Like'}</button>
-        <StyledDiv>
-            <h1>
-                Hello World have a Dope Day
-            </h1>
-        </StyledDiv>
         </React.Fragment>
     )
 }
